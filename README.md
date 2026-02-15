@@ -11,4 +11,9 @@ Plugin packs for Something Vibe RTS. This repo will host units/buildings content
 
 ## Current Status
 
-Scaffold only. We will copy the existing units and buildings from the main game into a default plugin group when we finalize the plugin loader in the main repo.
+Core group added:
+- `src/plugins/core/units.js`
+- `src/plugins/core/buildings.js`
+- `src/plugins/core/plugin.json`
+
+The main game will load these by tag + group name once the plugin loader is wired.
