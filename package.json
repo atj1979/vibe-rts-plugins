@@ -1,0 +1,15 @@
+{
+  "name": "@atj1979/vibe-rts-plugins",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Plugin packs for Something Vibe RTS (units, buildings, metadata).",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "license": "MIT"
+}
